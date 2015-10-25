@@ -1,0 +1,28 @@
+{
+  "name": "tdd",
+  "version": "1.0.0",
+  "description": "Working through examples in Test-Drivine Development By Example",
+  "main": "index.js",
+  "dependencies": {
+    "karma": "^0.13.14",
+    "jasmine-core": "^2.3.4",
+    "karma-jasmine": "^0.2.2"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "karma-jasmine": "^0.2.2"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgegabe/tdd.git"
+  },
+  "author": "Gabe Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/georgegabe/tdd/issues"
+  },
+  "homepage": "https://github.com/georgegabe/tdd#readme"
+}
