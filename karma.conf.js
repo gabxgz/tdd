@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on Sun Oct 25 2015 12:37:51 GMT-0500 (CDT)
+// Generated on Sun Oct 25 2015 12:50:53 GMT-0500 (CDT)
 
 module.exports = function(config) {
   config.set({
@@ -10,13 +10,14 @@ module.exports = function(config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['jasmine'],
+    frameworks: ['jasmine', 'requirejs'],
 
 
     // list of files / patterns to load in the browser
     files: [
-      'src/*.js',
-      'test/*.test.js'
+      'test-main.js',
+      {pattern: 'src/*.js', included: false},
+      {pattern: 'test/*.js', included: false}
     ],
 
 

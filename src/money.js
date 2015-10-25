@@ -1,1 +1,3 @@
-money.coffee
+define(function() {
+	return 1;
+});
