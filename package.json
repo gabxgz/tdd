@@ -4,8 +4,8 @@
   "description": "Working through examples in Test-Drivine Development By Example",
   "main": "index.js",
   "dependencies": {
-    "karma": "^0.13.14",
     "jasmine-core": "^2.3.4",
+    "karma": "^0.13.14",
     "karma-jasmine": "^0.2.2"
   },
   "devDependencies": {
