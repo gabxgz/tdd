@@ -1,13 +1,10 @@
-define(function() {
-	return function Dollar (amount) {
-		this.amount = amount;
-		
-		this.times = function(multiplier) {
-			return new Dollar(this.amount * multiplier);
-		};
-
-		this.equals = function(dollar) {
-			return this.amount === dollar.amount;
-		};
+define(['./money'], function(Money) {
+	var Dollar = function (amount) {
+		Money.call(this, amount);
 	};
+
+	Dollar.prototype = Object.create(Money.prototype);
+	Dollar.prototype.constructor = Dollar;
+
+	return Dollar;
 });

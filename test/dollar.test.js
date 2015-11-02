@@ -1,5 +1,4 @@
 define(['src/dollar'], function(Dollar){
-	
 	describe('Dollar', function() {
 		it('should be able to multiply and return a new Dollar', function() {
 			var five = new Dollar(5);
